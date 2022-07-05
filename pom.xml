@@ -20,7 +20,7 @@
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 <sonar.coverage.exclusions>
 			*/CarApplication.,
-			*/Car/.*,
+			*/Car.*,
 		</sonar.coverage.exclusions>
 		<sonar.issue.ignore.multicriteria>e11,e12</sonar.issue.ignore.multicriteria>
 		<sonar.issue.ignore.multicriteria.e11.ruleKey>
@@ -141,7 +141,7 @@
 				<version>0.8.6</version>
 				<configuration>
 					<excludes>
-						<exclude>**/Car/*.*</exclude>
+						<exclude>**/Car.*</exclude>
 						<exclude>**/CarApplication.*</exclude>
 					</excludes>
 				</configuration>
