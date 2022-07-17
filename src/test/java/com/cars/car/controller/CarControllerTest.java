@@ -72,13 +72,13 @@ public class CarControllerTest {
 	@Test
 	@DisplayName("Update Car View - Working")
 	public void testReturnUpdateCarView() throws Exception {
-		ModelAndViewAssert.assertViewName(mockMvc.perform(get("/edit/101")).andReturn().getModelAndView(), "update-car");
+		ModelAndViewAssert.assertViewName(mockMvc.perform(get("/edit/140")).andReturn().getModelAndView(), "update-car");
 	}
 	
 	@Test
 	@DisplayName("Get Car by Id View - Working")
 	public void testReturnGetCarIdView() throws Exception {
-		ModelAndViewAssert.assertViewName(mockMvc.perform(get("/101")).andReturn().getModelAndView(), "view-car");
+		ModelAndViewAssert.assertViewName(mockMvc.perform(get("/140")).andReturn().getModelAndView(), "view-car");
 	}
 	
 	@Test
