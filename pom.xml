@@ -161,9 +161,9 @@
 				<artifactId>coveralls-maven-plugin</artifactId>
 				<version>4.3.0</version>
 				<configuration>
-					<jacocoReports>
+					<jacocoReports> 
 						<jacocoReport>${project.build.directory}/jacoco-ut/jacoco.xml</jacocoReport>
-						<jacocoReport>${project.build.directory}/jacoco-it/jacoco.xml</jacocoReport>
+						 <jacocoReport>${project.build.directory}/jacoco-it/jacoco.xml</jacocoReport>
 					</jacocoReports>
 					<failOnServiceError>false</failOnServiceError>
 				</configuration>
